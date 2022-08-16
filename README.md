@@ -32,8 +32,6 @@ Na raiz do projeto, rodar o comando:
 vendor/bin/phpunit 
 ```
 
-app/Models/Config.php
-
 ## API utilizada:
 
 https://developer.marvel.com/
