@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="bg-dark">
     <div class="container-fluid">
       <div class="row">
         @foreach ($listaDeHerois as $heroi)
@@ -15,10 +15,10 @@
             <div class="card h-100">
               <img src="{{ $heroi->imagem }}" class="card-img-top" alt="Imagem de {{ $heroi->nome }}">
               <div class="card-body text-center">
-                <h5 class="card-title fs-1">Herói: {{ $heroi->nome }}</h5>
-                <p class="card-text fs-4 mt-2">{{ $heroi->descricao }}</p>
+                <h5 class="card-title fs-2">Herói: {{ $heroi->nome }}</h5>
+                <p class="card-text fs-5 mt-2">{{ $heroi->descricao }}</p>
               </div>
-              <button type="button" class="btn btn-primary fs-3" data-bs-toggle="modal" data-bs-target="#modal{{ $heroi->id }}">
+              <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#modal{{ $heroi->id }}">
                 Histórias de {{ $heroi->nome }}
               </button>
               <div class="modal fade" id="modal{{ $heroi->id }}" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
