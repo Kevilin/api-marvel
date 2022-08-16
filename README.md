@@ -44,4 +44,4 @@ Não se aplica.
 
 ## Site publicado:
 
-http://kmr.dev.br/api-marvel
+https://kmr.dev.br/api-marvel
