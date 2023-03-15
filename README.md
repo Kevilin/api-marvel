@@ -1,6 +1,6 @@
 # API Marvel
 
-
+teste
 ## Inicializar o projeto:
 Crie um arquivo .env , definindo os dados de acesso na API (chave pública e privada). Caso prefira, pode utilizar os dados que já estão no .env_example , com o comando abaixo:
 ```bash
