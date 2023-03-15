@@ -19,7 +19,7 @@
                 <p class="card-text fs-5 mt-2">{{ $heroi->descricao }}</p>
               </div>
               <button type="button" class="btn btn-primary fs-4" data-bs-toggle="modal" data-bs-target="#modal{{ $heroi->id }}">
-                Históriass de {{ $heroi->nome }}
+                Histórias de {{ $heroi->nome }}
               </button>
               <div class="modal fade" id="modal{{ $heroi->id }}" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
                 <div class="modal-dialog">
